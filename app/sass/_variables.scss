@@ -1,0 +1,65 @@
+// ----------
+
+// $supply:    'Supply', Courier, monospace;
+// $blender:   'Blender Pro Book', $supply;
+// $calibre:   'Calibre', sans-serif;
+
+$backgroundColor: #111015;
+
+$light:     300;
+$regular:   400;
+$medium:    500;
+$generalEase: cubic-bezier(0.74, 0.01, 0.27, 0.99);
+// $generalEase: cubic-bezier(0.645, 0.045, 0.355, 1);
+// ----------
+// Colours
+// ----------
+
+$b:         #000;
+$w:         #fff;
+
+
+
+// ----------
+// Breakpoints
+// ----------
+
+$nano:      450px;
+
+$mobile:    769px;
+
+$ipad:  1024px;
+$ipadMargin: (60/1024)*100vw;
+
+$laptop:   1600px;
+
+$max:       1920px;
+
+
+
+
+// ----------
+// Spacing
+// ----------
+
+$headerHeightM: (86/750);
+$headerHeightD: (60/1920);
+
+$footerHeightM: (64/750);
+$footerHeightD: (64/1920);
+
+.textIntro {
+// h1, h2, h3, p {
+	
+	display: block; 
+	@include transform(translate3d(0, -100%, 0));
+	@include transition(transform 800ms $generalEase 0ms );
+	.siteLoaded & {
+		&.loadText {
+			@include transform(translate3d(0, 0%, 0));				
+		}
+	}
+
+}
+
+$Tspeed: 900ms;

@@ -1,0 +1,22 @@
+h1 {
+	font-family: "nevis"; 
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+
+}
+h2 {
+	font-size: (40/1920)*100vw;
+	font-family: "nevis"; 
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+h3 {
+	font-size: (20/1920)*100vw;
+	font-family: "nevis";
+	letter-spacing: 0.08em;
+	text-transform: uppercase; 
+}
+p {
+	font-family: $bodyFont;
+
+}

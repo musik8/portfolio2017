@@ -1,0 +1,20 @@
+@import "compass/reset";
+@import "compass/css3";
+@import 'fonts';
+@import 'type';
+@import 'variables';
+
+html, body {
+	// font-family: sans-serif;
+	min-height: 100%;
+}
+
+
+
+.fade-enter-active, .fade-leave-active {
+ 
+  @include transition(opacity 200ms ease-in-out 300ms)
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0
+}

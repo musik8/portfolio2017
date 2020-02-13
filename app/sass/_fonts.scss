@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'nevis';
+	src: url('../fonts/nevis-Bold.eot');
+	src: url('../fonts/nevis-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/nevis-Bold.woff2') format('woff2'),
+		url('../fonts/nevis-Bold.woff') format('woff'),
+		url('../fonts/nevis-Bold.ttf') format('truetype');
+		
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fabrica';
+	src: url('../fonts/Fabrica.eot');
+	src: url('../fonts/Fabrica.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Fabrica.woff2') format('woff2'),
+		url('../fonts/Fabrica.woff') format('woff'),
+		url('../fonts/Fabrica.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+$bodyFont: "Fabrica";
+ $headerFont: "nevis";
